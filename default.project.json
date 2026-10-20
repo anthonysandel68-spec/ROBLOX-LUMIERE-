@@ -1,0 +1,30 @@
+{
+  "name": "Lumen",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$className": "Folder",
+        "Theme": {
+          "$path": "src/shared/Theme.lua"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Game": {
+        "$path": "src/server/Game.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "HUD": {
+          "$path": "src/client/HUD.client.lua"
+        }
+      }
+    }
+  }
+}
