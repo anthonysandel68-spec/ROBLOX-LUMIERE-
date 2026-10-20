@@ -9,7 +9,13 @@ local Theme = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("The
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
-local COLORS = Theme.Colors
+local COLORS = {
+	Normal = Theme.Colors.Primary,
+	Low = Theme.Colors.Danger,
+	Text = Theme.Colors.Text,
+	Good = Theme.Colors.Success,
+	Warn = Theme.Colors.Warning,
+}
 local LOW_LIGHT_RATIO = 0.25
 
 local gui = Instance.new("ScreenGui")
